@@ -1,0 +1,18 @@
+{
+  "name": "discovering-footprints",
+  "version": "1.0.0",
+  "description": "landing page for discovering footprints",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style.css -w"
+  },
+  "author": "hayat",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "compile": "^0.0.2",
+    "sass": "^1.43.2"
+  }
+}
